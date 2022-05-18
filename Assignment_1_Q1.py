@@ -5,6 +5,8 @@ print(a)
 print(b)
 for i in range(1,10):
      c= a+b
+     if c > 50:
+          break
      a=b
      b=c
      print(c)
